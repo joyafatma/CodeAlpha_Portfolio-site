@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +32,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: #333;
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('port.jpg') no-repeat center center/cover;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://static.vecteezy.com/system/resources/thumbnails/056/513/884/small_2x/an-evocative-interior-scene-featuring-a-textured-wall-painted-in-a-vibrant-gradient-bathed-in-a-blend-of-light-and-shadow-and-a-floor-with-a-cool-hue-free-photo.jpg') no-repeat center center/cover;
             background-attachment: fixed;
             min-height: 100vh;
             background-blend-mode: overlay;
@@ -391,13 +392,14 @@
         /* Projects Section */
         #projects {
             background: white;
+            padding: 80px 0;
         }
         
         .projects-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
             gap: 30px;
-            margin-top: 50px;
+            margin-top: 30px;
         }
         
         .project-card {
@@ -645,7 +647,7 @@
                 <p>Artificial Intelligence and Data Science Student & Frontend Developer</p>
                 <div class="hero-btns">
                     <a href="#contact" class="btn btn-primary">Contact Me</a>
-                    <a href="Resume.pdf" class="btn btn-secondary" download>Download CV</a>
+                    <a href="file:///Users/joyafatma/Desktop/HTML/Joya resume.pdf" class="btn btn-secondary" download>Download CV</a>
                 </div>
             </div>
         </div>
@@ -659,7 +661,7 @@
             </div>
             <div class="about-content">
                 <div class="about-img">
-                    <img src="file:///Users/joyafatma/Desktop/HTML/classroom/JOYA.jpeg">
+                    <img src="file:///Users/joyafatma/Desktop/HTML/classroom/JOYA.jpeg" alt="Joya Fatma" style="border-radius: 50%;">
                 </div>
                 <div class="about-text">
                     <h3>I love to study and code</h3>
@@ -673,7 +675,7 @@
                             <li><strong>B.Tech (COE):</strong> 7.00 CGPA</li>
                         </ul>
                     </div>
-                    <a href="#" class="btn">Download CV</a>
+                    <a href="file:///Users/joyafatma/Desktop/HTML/Joya resume.pdf" class="btn" download>Download CV</a>
                 </div>
             </div>
         </div>
@@ -700,6 +702,47 @@
                     <i class="fas fa-graduation-cap"></i>
                     <h3>Education</h3>
                     <p>B.Tech in Computer Science</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+                <p>Here are some of my recent projects</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Calculator Project -->
+                <div class="project-card calculator">
+                    <div class="project-preview">
+                        <span>Calculator App</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Modern Calculator</h3>
+                        <p>A sleek, responsive calculator with a modern UI, featuring basic arithmetic operations, keyboard support, and smooth animations.</p>
+                        <div class="project-links">
+                            <a href="Calculator.html" class="btn-live">View Live</a>
+                            <a href="#" class="btn-code">View Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Image Gallery Project -->
+                <div class="project-card gallery">
+                    <div class="project-preview">
+                        <span>Image Gallery</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Responsive Image Gallery</h3>
+                        <p>An interactive image gallery with category filters, lightbox preview, and responsive design for all devices.</p>
+                        <div class="project-links">
+                            <a href="Image Gallery.html" class="btn-live">View Live</a>
+                            <a href="#" class="btn-code">View Code</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -749,40 +792,6 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <div class="section-title">
-                <h2>My Projects</h2>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-img">
-                        <img src="https://via.placeholder.com/400x250?text=Calculator+App" alt="Calculator App">
-                    </div>
-                    <div class="project-info">
-                        <h3>Calculator App</h3>
-                        <p>A fully functional calculator with a modern UI, built with HTML, CSS, and JavaScript.</p>
-                        <div class="project-links">
-                            <a href="calculator%20task.html"><i class="fas fa-external-link-alt"></i> View Project</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-img">
-                        <img src="https://via.placeholder.com/400x250?text=Image+Gallery" alt="Image Gallery">
-                    </div>
-                    <div class="project-info">
-                        <h3>Image Gallery</h3>
-                        <p>An interactive image gallery with filtering and lightbox features.</p>
-                        <div class="project-links">
-                            <a href="imagetask.html"><i class="fas fa-external-link-alt"></i> View Project</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Contact Section -->
     <section id="contact">
